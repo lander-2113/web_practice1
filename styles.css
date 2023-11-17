@@ -79,7 +79,6 @@
     left: 95%;
 }
 
-/* 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 */
 
 .container .l{
     width: 100px;
@@ -91,39 +90,7 @@
     top: 0;
     left: 60%;
 }
-/* /home/rohit/Downloads/qr-code-component-main/styles.css */
-.container .circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #F0F0F0;
-    border: 5px solid #D6E1F0;
-    position: absolute;
-    top: 76%;
-    left: 88%;
-}
-.container > div {
-    display: block ;
-}
 
-.container .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    gap: 5px;
-    position: absolute;
-    width: 25px;
-    left: -5px;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.container .grid .item {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #68B8C3;
-}
 
 /* @mediaQq\\q */
 @media only screen and (max-width: 575px) {
@@ -148,5 +115,3 @@
         
     }
 }
-
-/* /home/rohit/Downloads/qr-code-component-main/styles.css */
