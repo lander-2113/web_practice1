@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #F0F0F0;
+    height: 100vh;
+    position: relative;
+}
+
+.container1{
+    background-color: #D6E1F0;
+    width: 90%;
+    height: 630px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container2{
+    background-color: white;
+    display: flexbox;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+}
+.container2 .qrcode img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.container2 .text {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+.container2 .text h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.attribution {
+    height: 20vh;
+    text-align: center;    
+}
+
+.container .line1,
+.container .line2 {
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(25% 0%, 27% 0, 3% 100%, 0% 100%);
+    background-color: #D6E1F0;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    z-index: 100;
+}
+.container .line2 {
+    left: 30%;
+}
+
+.container .zigzig{
+    background-color: #F9C8C4;
+    width: 200px;
+    height: 200px;
+    -webkit-clip-path: polygon(13% 12%, 30% 38%, 47% 11%, 44% 20%, 31% 45%, 13% 17%, 0 43%);
+    clip-path: polygon(13% 12%, 30% 38%, 47% 11%, 44% 20%, 31% 45%, 13% 17%, 0 43%);
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 30%;
+    left: 95%;
+}
+
+/* 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 */
+
+.container .l{
+    width: 100px;
+    height: 100px;
+    background-color: #F9C8C4;
+    -webkit-clip-path: polygon(0 100%, 0 0, 2% 0, 2% 48%, 2% 98%, 70% 98%, 69% 100%);
+    clip-path: polygon(0 100%, 0 0, 2% 0, 2% 48%, 2% 98%, 70% 98%, 69% 100%);
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+/* /home/rohit/Downloads/qr-code-component-main/styles.css */
+.container .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    border: 5px solid #D6E1F0;
+    position: absolute;
+    top: 76%;
+    left: 88%;
+}
+.container > div {
+    display: block ;
+}
+
+.container .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    position: absolute;
+    width: 25px;
+    left: -5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.container .grid .item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #68B8C3;
+}
+
+/* @mediaQq\\q */
+@media only screen and (max-width: 575px) {
+    .container .container1{
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container .container1 .container2 {
+        height: 50%;
+        justify-content: center;
+        position: absolute;
+        margin: 0;
+        height: 460px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
+
+/* /home/rohit/Downloads/qr-code-component-main/styles.css */
