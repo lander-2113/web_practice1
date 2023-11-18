@@ -17,7 +17,7 @@
     background-color: white;
     display: flexbox;
     width: 300px;
-    height: 430px;
+    height: 480px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -45,11 +45,4 @@
 .container .container1 .text p {
     font-size: 15px;
     font-weight: 100;
-}
-
-
-
-/* @mediaQq\\q */
-@media only screen and (max-width: 575px) {
-
 }
